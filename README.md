@@ -1,12 +1,34 @@
-# React + Vite
+# 🎮 Adivina el Número - Proyecto con React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este es un pequeño juego interactivo desarrollado con **React** que pone a prueba tus habilidades para adivinar un número secreto generado aleatoriamente entre 1 y 100. El proyecto implementa **renderizado condicional**, **composición de componentes** y **manejo de estado** con `useState`, además de guardar el mejor intento usando `localStorage`.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Funcionalidades
 
-## Expanding the ESLint configuration
+✅ Generación aleatoria de número secreto   
+✅ Mensajes dinámicos según el intento (más alto, más bajo, acertaste)   
+✅ Botón para reiniciar el juego  
+✅ Guardado del mejor intento en `localStorage`  
+✅ Composición de componentes con `<Header />` y `<Game />`  
+✅ Estilo personalizado con imagen de fondo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tecnologías utilizadas
+
+- React
+- Vite
+- JavaScript (ES6+)
+- CSS
+- JSX
+- Hooks (`useState` y `useEffect`)
+
+---
+
+## 📦 Instalación y ejecución local
+
+1. **Clona el repositorio**:
+
+   ```bash
+   git clone https://github.com/Celvy92/adivina-numero.git
