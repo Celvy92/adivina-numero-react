@@ -1,25 +1,26 @@
-.app-container {
-  text-align: center;
-  margin-top: 50px;
-  font-family: Arial, sans-serif;
+/* Aplica el fondo a todo el body */
+body {
+  margin: 0;
+  padding: 0;
   background-image: url('./assets/fondo.jpg');
   background-size: cover;
-  height: 100vh;
-  color: #fff;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-input {
-  padding: 8px;
-  margin-right: 10px;
-  border-radius: 5px;
-  border: none;
-}
-
-button {
-  padding: 8px 12px;
-  background-color: #4caf50;
+/* Contenedor principal */
+.app-container {
+  background-color: rgba(0, 0, 0, 0.7); /* oscurece un poco para mejor lectura */
+  padding: 40px;
+  border-radius: 12px;
   color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0,0,0,0.4);
 }
